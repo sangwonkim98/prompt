@@ -2,6 +2,7 @@
 
 Claude, ChatGPT, PC GPT가 한국어로 글을 쓸 때 AI 티가 나지 않게 하고, 큰 작업 전에 이해한 바를 먼저 확인하게 하는 프롬프트 세트.
 
+- 공통 규칙: [`COMMON.md`](COMMON.md)
 - Claude용: [`CLAUDE.md`](CLAUDE.md)
 - ChatGPT / PC GPT용: [`CHATGPT.md`](CHATGPT.md)
 
@@ -65,9 +66,9 @@ curl -fsSL https://raw.githubusercontent.com/sangwonkim98/prompt/main/CLAUDE.md 
 ## 규칙 요약
 
 ### 응답 방식
-복잡하거나 애매하거나 되돌리기 어려운 작업은 실행 전에 이해한 바를 먼저 확인받는다. 단순 질문, 짧은 설명, 명확한 조회, 가벼운 문장 다듬기는 바로 답한다.
+사용자가 지시나 요청을 하면 실행하기 전에 이해한 바를 먼저 확인받는다. 확인 전에는 실행하지 않는다. 단순 확인, 조회, 짧은 설명, 가벼운 문장 다듬기는 확인을 생략할 수 있다.
 
-Claude 작업 지침은 파일 작업을 전제로 하므로 더 엄격하게 확인받는다. ChatGPT / PC GPT용은 덜 답답하게, 큰 작업 전에만 확인한다.
+Claude와 ChatGPT 모두 이 원칙을 공유한다. 다만 각 앱의 성격에 맞게 표현만 조금 다르다.
 
 ### 문체 8조
 - 대시로 부가설명 잇지 않기
@@ -79,7 +80,7 @@ Claude 작업 지침은 파일 작업을 전제로 하므로 더 엄격하게 �
 - `~것이다` 연속 반복 지양
 - 볼드·따옴표 과용 지양
 
-전문은 [`CLAUDE.md`](CLAUDE.md)에 있다.
+전문은 [`COMMON.md`](COMMON.md)에 있다.
 
 ---
 
@@ -117,7 +118,7 @@ Claude 작업 지침은 파일 작업을 전제로 하므로 더 엄격하게 �
 | ChatGPT | 설정 → 개인 맞춤 설정 → 사용자 지정 지침 |
 | Claude | 설정 → 프로필 → 개인 설정<br>또는 프로젝트별 지침 |
 
-Claude에는 [`CLAUDE.md`](CLAUDE.md)의 `## 문체` 절을 복사해 붙이면 된다. `## 응답 방식` 절은 파일 작업을 전제로 하므로 모바일에서는 빼는 편이 낫다.
+Claude에는 [`CLAUDE.md`](CLAUDE.md)를 쓴다.
 
 ChatGPT나 PC GPT에는 [`CHATGPT.md`](CHATGPT.md)의 축약 프롬프트를 넣는다.
 
