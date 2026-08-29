@@ -5,6 +5,7 @@ Claude, ChatGPT, PC GPT가 한국어로 글을 쓸 때 AI 티가 나지 않게 �
 - 공통 규칙: [`COMMON.md`](COMMON.md)
 - Claude용: [`CLAUDE.md`](CLAUDE.md)
 - ChatGPT / PC GPT용: [`CHATGPT.md`](CHATGPT.md)
+- 단계별 조사형 과외용: [`GUIDED_RESEARCH_TUTOR.md`](GUIDED_RESEARCH_TUTOR.md)
 
 ---
 
